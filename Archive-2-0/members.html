@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #19171a;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="sidenav">
+  <img src="https://i.pinimg.com/originals/da/99/ae/da99ae130a3dbd75b710eca104fa0c8a.png" height="140" width="160></img>
+</div>
+<div class="sidenav">
+  <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="events.html"><i class="fa fa-fw fa-wrench"></i> Events</a>
+  <a href="join.html"><i class="fa fa-fw fa-group"></i> Join us (for free!)</a>
+  <a href="members.html"><i class="fa fa-fw fa-user"></i> Members</a>
+  <a href="about.html"><i class="fa fa-fw fa-info"></i> About</a>
+  <a href="https://thedebianguy.keybase.pub" target="_blank">Copyright Debian Guy 2020</a>
+</div>
+
+<div class="main">
+  <h2>Members</h2>
+  <h3>Current members are:</h3>
+  <ul>
+	<li onclick="location.href='https://thedebianguy.keybase.io';" style="cursor:pointer;"><a href="https://thedebianguy.keybase.io" target="_blank" style="color:red">TheDebianGuy</a> - founder, C# and Python developer</li>
+	<li onclick="location.href='https://harrysite.co.uk';" style="cursor:pointer"><a href="https://harrysite.co.uk" target="_blank" style="color:#48e87d">Harrcorr</a> - Java, Python and Web developer</li>
+  </ul>
+  <p>You can request for a membership in the <strong>chat</strong>.</p>
+</div>
+
+</body>
+</html>
