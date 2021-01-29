@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Divine Software - Products</title>
+</head>
+<style>
+body {
+  background-color: #000000;
+  old-background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.technocrazed.com%2Fwp-content%2Fuploads%2F2015%2F12%2Fblack-wallpaper-to-set-as-background-28.jpg&f=1&nofb=1');
+  background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: black;
+}
+img {
+  /*border-radius: 5px 5px 0 0;*/
+  width: 300px;
+  height: 200px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.cards {
+  width: 800px;
+  height: 500px;
+  justify-content: space-between;
+  perspective: 800px;
+  color: white;
+}
+.zoom-without-container {
+  height: 225px;
+  overflow: hidden;
+}
+.zoom-without-container img {
+  transition: transform .5s ease;
+}
+.zoom-without-container:hover img {
+  transform: scale(1.5);
+}
+</style>
+<body id="body">
+<h1 style='color: white'><u>Software</u></h1>
+<div class="cards" style='display: flex;'>
+<div class="card">
+  <div class="zoom-without-container"><img src="images/product-1.png" alt="Avatar"></div>
+  <div class="container">
+    <h4><b><a href='https://github.com/DivineSoftware/AutoRoot' class='name'>Pygy</a> - CLI text editor with multiple syntax highlightings and compiling options</b></h4>
+    <p style='bottom: 0;'>Tags: Python, Android, terminal, root, adb</p>
+    <p style='bottom: 0;position: absolute'>Author: <a href='https://github.com/TheDebianGuy' style='color:red'>TheDebianGuy</a></p>
+  </div>
+</div>
+<div style='visibility: hidden;'>-</div>
+<div class="card">
+  <div class="zoom-without-container"><img src="images/product-2.png" alt="Avatar"></div>
+  <div class="container">
+    <h4><b><a href='https://github.com/DivineSoftware/AutoRoot' class='name'>AutoRoot</a> - Lite rootkit including adb shell and debugging tools</b></h4>
+    <p style='bottom: 0;'>Tags: Python, Android, terminal, root, adb</p>
+    <p style='bottom: 0;position: absolute'>Author: <a href='https://github.com/TheDebianGuy' style='color:red'>TheDebianGuy</a></p>
+  </div>
+</div>
+<div style='visibility: hidden;'>-</div>
+<div class="card">
+ <div class="zoom-without-container"><img src="images/product-3.png" alt="Avatar"></div>
+  <div class="container">
+    <h4><b><a href='https://github.com/DivineSoftware/SharedCode' class='name'>SharedCode</a> - Source code sharing web platform easy to deploy</b></h4>
+    <p style='bottom: 0;'>Tags: Python, CLI, terminal, vim</p>
+    <p style='bottom: 0;'>Author: <a href='https://github.com/TheDebianGuy' style='color:red'>TheDebianGuy</a></p>
+  </div>
+</div>
+</div>
+<p style='color: white;'>Donate crypto: <br />BTC <a href='bitcoin:37X35ddxyxXBWSgvPZwer41bftYTXW8mSM' style='color:white'>37X35ddxyxXBWSgvPZwer41bftYTXW8mSM</a><br />XMR <a href='monero:4AV3eTXX4JU5uZ4bREUxBn4kTJcRHpNdLFJX2PmECrd15yqz69jAVuZMBEztJJm5oKYMea3WGuEMVduymAv7XSYu7B26z4S' style='color:white'>4AV3eTXX4JU5uZ4bREUxBn4kTJcRHpNdLFJX2PmECrd15yqz69jAVuZMBEztJJm5oKYMea3WGuEMVduymAv7XSYu7B26z4S</a><br /></p>
+<script>
+var bgcolor = '#' + Math.random().toString(16).substr(-6);
+var elems = document.getElementsByClassName("name");
+for (var i = 0; i<elems.length; i++)
+{
+    elems[i].style.color = bgcolor;
+}
+</script>
+</body>
+</html>
